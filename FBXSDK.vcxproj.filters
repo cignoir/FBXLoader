@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\GALib">
+      <UniqueIdentifier>{4a9ee976-c8e9-4bb4-bc37-b407e74f18da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{ed36349d-a562-4a41-9ad1-e24c0ec60812}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GALib\D3D11\ContextState.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\D3D11\D3D11Manager.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\D3D11\D3DUser.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\Draw\GeneralBuffer.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\Draw\GraphicsAPI.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\FileSystem\FileReader.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\GALib.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\main.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\MainWindow.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\Math\Matrix\Matrix3x3.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\Math\Matrix\Matrix4x4.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\Math\Quaternion\Quaternion.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\Math\Vector\Vector2.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\Math\Vector\Vector3.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\Math\Vector\Vector4.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\ResourceManager\TextureManager.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\SamplerManager\SamplerManager.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\SamplerManager\SamplerTypes.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\ShaderManager\ShaderInputFormat.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\ShaderManager\ShaderManager.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="GALib\WindowManager\WindowBase.cpp">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxLoader.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxConvert.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GALib\common.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\D3D11\ContextState.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\D3D11\D3D11Manager.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\D3D11\D3DUser.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Draw\GeneralBuffer.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Draw\GraphicsAPI.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\FileSystem\FileReader.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\GALib.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\MainWindow.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Math\Interpolation\Interpolation.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Math\MathAll.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Math\Matrix\Matrix3x3.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Math\Matrix\Matrix4x4.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Math\Quaternion\Quaternion.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Math\Utility\UtilityMath.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Math\Vector\Vector2.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Math\Vector\Vector3.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Math\Vector\Vector4.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\NullPointer\NullPointer.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Pointer\SharedPtr.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Pointer\UniquePointer.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Pointer\UniquePointerImpl.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\ResourceManager\TextureManager.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\RTTI\RTTI.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\SamplerManager\SamplerManager.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\SamplerManager\SamplerTypes.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\ShaderManager\ShaderInputFormat.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\ShaderManager\ShaderManager.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Utility\GASTL.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\WindowManager\GDIBitmap.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\WindowManager\GDIFont.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\WindowManager\GUIButtons.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\WindowManager\GUIStatic.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\WindowManager\WindowBase.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Settings.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxLoader.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxConvert.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GALib\Utility\DebugPrint.h">
+      <Filter>ソース ファイル\GALib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShaderShape.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fbx独自形式フォーマット.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
